@@ -18,7 +18,21 @@
                 <p>Quanto ficou a conta?</p>
             </label>
             <p>
-                R$ <input type="namber" placeholder="100" name="bill">
+                R$ <input type="namber" placeholder="100" name="bill" id="bill">
+            </p>
+            <label for="servceQual">
+                <p>Como foi o seu serviço</p>
+            </label>
+            <p>
+                <select name="servceQual" id="servceQual">
+                    <option disabled selected value="0">--Escolha uma opção</option>
+                    <option value="0.3">30% - Incrível</option>
+                    <option value="0.2">20% - Bom</option>
+                    <option value="0.15">15% - Regular</option>
+                    <option value="0.1">10% - Ruim</option>
+                    <option value="0">Péssimo</option>
+
+                </select>
             </p>
         </form>
     </div>
