@@ -18,7 +18,7 @@
                 <p>Quanto ficou a conta?</p>
             </label>
             <p>
-                R$ <input type="namber" placeholder="100" name="bill" id="bill">
+                R$ <input type="number" placeholder="100" name="bill" id="bill">
             </p>
             <label for="servceQual">
                 <p>Como foi o seu serviço</p>
@@ -31,9 +31,15 @@
                     <option value="0.15">15% - Regular</option>
                     <option value="0.1">10% - Ruim</option>
                     <option value="0">Péssimo</option>
-
                 </select>
             </p>
+            <label for="people">
+                <p>Quantas pessoas vão dividir a conta?</p>
+            </label>
+            <p>
+                <input type="number" placeholder="1" name="people"> pessoas(s)
+            </p>
+            <button type="submit">Calcular!</button>
         </form>
     </div>
 </body>
