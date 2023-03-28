@@ -1,0 +1,9 @@
+:root{
+    --primary-color: lemonchiffon;
+    --secondary-color: dimGrey;
+    --tertiary-color: gainsboro; 
+}
+
+body {
+    background-color: var(--primary-color);
+}
