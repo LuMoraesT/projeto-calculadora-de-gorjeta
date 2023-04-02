@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=lato:300,400,700|PT++Mono);
+/*@import url(https://fonts.googleapis.com/css?family=lato:300,400,700|PT++Mono);*/
 
 :root{
     --primary-color: lemonchiffon;
@@ -66,6 +66,12 @@ body {
     height: 50px;
     font-size: 17px;
     color: var(--secondary-color);
+}
+
+#totalTip {
+    font-size: 20px;
+    margin-top: 5px;
+    text-align: center;
 }
 
 
